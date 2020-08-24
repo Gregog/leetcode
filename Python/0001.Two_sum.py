@@ -1,5 +1,5 @@
 class Solution:
-    def twoSum(self, nums: list[int], target: int) -> list[int]:
+    def two_sum(self, nums: list[int], target: int) -> list[int]:
         num_elements = len(nums)
         result = []
         for i in range(num_elements - 1):
